@@ -49,9 +49,7 @@ export default function AnimatedBeamDemo() {
           </Circle>
         </div>
         <div className="flex flex-row items-center justify-between">
-          <Circle ref={div2Ref}>
-            <Icons.notion />
-          </Circle>
+         
           <Circle ref={div4Ref} className="size-16">
             <Icons.openai />
           </Circle>
